@@ -10,6 +10,13 @@ body {
     padding: 0;
 }
 
+.pgraph {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 /* banner section styles starts here  */
 .banner-container {
     width: 1440px;
@@ -50,13 +57,6 @@ body {
     margin: 32px;
 }
 
-.banner-content p {
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-}
-
 .banner-button {
     width: 208px;
     height: 66px;
@@ -70,3 +70,99 @@ body {
 }
 
 /* banner section ends  */
+/* why web development section starts  */
+.web-development-container {
+    width: 1140px;
+    height: 1393px;
+    border: 1px solid red;
+    margin: 0 auto;
+    margin-bottom: 90px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.web-dev-contents {
+    width: 946px;
+    height: 1233px;
+    margin: 80px 97px;
+
+}
+
+.web-dev-headings {
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+
+}
+
+.web-dev-headings h5 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.web-content {
+    max-width: 946px;
+    height: 255px;
+    padding: 48px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.web-info-content {
+    width: 477px;
+    height: 219px;
+}
+
+.web-image-content {
+    width: 260px;
+    height: 217px;
+}
+
+.web-image-content img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.web-info-content h6 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.web-learn-button {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+
+}
+
+/* why web development section ends  */
+.inspiration-container {
+    width: 1076px;
+    height: 550px;
+    border: 1px solid red;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
