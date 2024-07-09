@@ -310,8 +310,9 @@ body {
 }
 
 .text-area {
+    width: 400px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 17px;
     margin-right: 5px;
 }
 
@@ -327,3 +328,18 @@ body {
 }
 
 /* footer starts  */
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer h6 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.icon-img>a>img {
+    margin-right: 5px;
+}
