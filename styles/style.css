@@ -74,7 +74,6 @@ body {
 .web-development-container {
     width: 1140px;
     height: 1393px;
-    border: 1px solid red;
     margin: 0 auto;
     margin-bottom: 90px;
     border-radius: 16px;
@@ -163,21 +162,18 @@ body {
 .inspiration-container {
     width: 1140px;
     height: 775px;
-    border: 1px solid red;
     margin: 0 auto;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .inspiration-content {
     width: 1140px;
     height: 614px;
-    border: 1px solid red;
 }
 
 .inspiration-video {
     width: 1076px;
     height: 550px;
-    border: 1px solid red;
     margin: 30px 30px;
 }
 
@@ -188,3 +184,85 @@ body {
 }
 
 /* inspiration section ends here  */
+/* current target section starts here  */
+.current-target-container {
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    margin-bottom: 110px;
+}
+
+.target-items {
+    width: 1140px;
+    height: 299px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.target-item-content {
+    width: 280px;
+    height: 219px;
+    padding: 40px;
+}
+
+.target-item-content h6 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.target-item-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.target-item-content a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.target-item-content img {
+    width: 56px;
+    height: 56px;
+}
+
+.html-bg {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.css-bg {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.js-bg {
+    border-radius: 16px;
+
+    background: rgba(255, 223, 0, 0.05);
+}
+
+/* footer starts  */
+.support {
+
+    width: 1140px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    background: url('/assets/footer.jpg'), rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+    background-position: center;
+    border: 1px solid red;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
