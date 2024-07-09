@@ -10,14 +10,40 @@ body {
     padding: 0;
 }
 
+.flex-class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .pgraph {
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
 }
 
-/* banner section styles starts here  */
+.color-family {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+}
+
+/* name section  */
+.name-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.name-section h4 {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.name-section>button {
+    border-radius: 10px;
+}
+
+/* banner section styles starts  */
 .banner-container {
     width: 1440px;
     height: 652px;
@@ -33,10 +59,6 @@ body {
     width: 998px;
     height: 582px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .banner-content .banner-content-img {
@@ -50,16 +72,14 @@ body {
 }
 
 .banner-content h4 {
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 48px;
     font-weight: 800;
     margin: 32px;
 }
 
 .banner-button {
-    width: 208px;
-    height: 66px;
+    width: 225px;
+    height: 60px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
     Font: Azeret Mono;
@@ -70,6 +90,7 @@ body {
 }
 
 /* banner section ends  */
+
 /* why web development section starts  */
 .web-development-container {
     width: 1140px;
@@ -84,24 +105,16 @@ body {
     width: 946px;
     height: 1233px;
     margin: 80px 97px;
-
 }
 
 .section-headings {
     width: 852px;
     height: 113px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 48px;
-
 }
 
 .section-headings h5 {
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
     margin-top: 0;
@@ -137,8 +150,6 @@ body {
 }
 
 .web-info-content h6 {
-    color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 16px;
@@ -154,11 +165,11 @@ body {
     margin-top: 20px;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
-
 }
 
 /* why web development section ends  */
-/* inspiration section starts here  */
+
+/* inspiration section starts  */
 .inspiration-container {
     width: 1140px;
     height: 775px;
@@ -183,8 +194,9 @@ body {
     border-radius: 10px;
 }
 
-/* inspiration section ends here  */
-/* current target section starts here  */
+/* inspiration section ends  */
+
+/* current target section starts  */
 .current-target-container {
     width: 1140px;
     height: 460px;
@@ -197,7 +209,6 @@ body {
     height: 299px;
     display: flex;
     justify-content: space-between;
-
 }
 
 .target-item-content {
@@ -207,8 +218,6 @@ body {
 }
 
 .target-item-content h6 {
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 800;
     margin-top: 24px;
@@ -216,16 +225,12 @@ body {
 }
 
 .target-item-content p {
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 24px;
 }
 
 .target-item-content a {
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 700;
 }
@@ -247,13 +252,11 @@ body {
 
 .js-bg {
     border-radius: 16px;
-
     background: rgba(255, 223, 0, 0.05);
 }
 
-/* footer starts  */
+/* support section starts  */
 .support {
-
     width: 1140px;
     height: 300px;
     margin: 0 auto;
@@ -261,7 +264,6 @@ body {
     background: url('/assets/footer.jpg'), rgba(0, 0, 0, 0.4);
     background-blend-mode: overlay;
     background-position: center;
-    border: 1px solid red;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -271,18 +273,7 @@ body {
     width: 1044px;
     height: 185px;
     border: 1px solid white;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
     padding: 64px 48px;
-}
-
-.support-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .support-info h5 {
@@ -305,8 +296,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .text-area {
@@ -331,11 +320,10 @@ body {
 .footer {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 32px;
 }
 
 .footer h6 {
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
 }
@@ -343,3 +331,5 @@ body {
 .icon-img>a>img {
     margin-right: 5px;
 }
+
+/* footer ends  */
